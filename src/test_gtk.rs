@@ -17,7 +17,7 @@ pub(crate) fn test_gtk() {
         window.set_title("First GTK+ Program");
         window.set_default_size(800, 900);
 
-        let button = Button::new_with_label("Click me!");
+        let button = Button::with_label("Click me!");
         button.connect_clicked(|_| {
             println!("Clicked!");
         });
@@ -28,3 +28,4 @@ pub(crate) fn test_gtk() {
 
     application.run(&[]);
 }
+
