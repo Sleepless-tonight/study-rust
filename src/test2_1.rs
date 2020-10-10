@@ -5,6 +5,7 @@ pub(crate) fn test1() {
     println!("Guess the nuber!");
     println!("Please input your guess!");
 
+    // 双冒号是Rust中函数引用的标志,上面的意思是引用String中的from函数,
     let mut guess = String::new();
 
 

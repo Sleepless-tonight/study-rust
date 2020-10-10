@@ -8,6 +8,8 @@ use std::cmp::Ordering;
 
 */
 pub(crate) fn test3() {
+
+    
     println!("Guess the number!");
 
     // use rand::Rng。该Rng特征定义方法是随机数生成器

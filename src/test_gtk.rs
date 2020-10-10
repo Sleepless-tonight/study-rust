@@ -1,4 +1,3 @@
-
 extern crate gtk;
 extern crate gio;
 
@@ -7,7 +6,7 @@ use gio::prelude::*;
 
 use gtk::{Application, ApplicationWindow, Button};
 
-pub(crate) fn testGtk() {
+pub(crate) fn test_gtk() {
     let application = Application::new(
         Some("com.github.gtk-rs.examples.basic"),
         Default::default(),
