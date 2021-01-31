@@ -14,15 +14,15 @@ ferris-says = "0.2"
 #[dependencies]
 #gtk = { git = "https://github.com/gtk-rs/gtk4.git" }
 
-#[dependencies.gtk]
+[dependencies.gtk]
 #version = "0.8.1"
-#features = ["v3_20"]
-#[dependencies.gio]
+features = ["v3_20"]
+[dependencies.gio]
 ##version = ""
-#features = ["v2_44"]
-#[dependencies.glib]
+features = ["v2_44"]
+[dependencies.glib]
 ##version = ""
-#features = ["v2_44"]
+features = ["v2_44"]
 
 #[dependencies]
 #chrono = "0.4"

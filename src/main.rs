@@ -1,5 +1,5 @@
-// mod test_gtk;
-mod test2_1;
+mod test_gtk;
+// mod test2_1;
 // mod test1_1;
 // mod test2_2;
 // mod test2_3;
@@ -10,8 +10,8 @@ mod test2_1;
 fn main() {
 
     // test1_1::test1();
-    test2_1::test1();
+    // test2_1::test1();
     // test::test2();
     // test2_3::test3();
-    // test_gtk::test_gtk();
+    test_gtk::test_gtk();
 }
