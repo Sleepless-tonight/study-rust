@@ -1,12 +1,13 @@
 extern crate gtk;
 extern crate gio;
 
-use gtk::prelude::*;
 use gio::prelude::*;
+use gtk::prelude::*;
 
 use gtk::{Application, ApplicationWindow, Button};
 
 pub(crate) fn test_gtk() {
+
     let application = Application::new(
         Some("com.github.gtk-rs.examples.basic"),
         Default::default(),
@@ -15,7 +16,7 @@ pub(crate) fn test_gtk() {
     application.connect_activate(|app| {
         let window = ApplicationWindow::new(app);
         window.set_title("First GTK+ Program");
-        window.set_default_size(800, 900);
+        window.set_default_size(350, 350);
 
         let button = Button::with_label("Click me!");
         button.connect_clicked(|_| {
@@ -28,4 +29,3 @@ pub(crate) fn test_gtk() {
 
     application.run(&[]);
 }
-
