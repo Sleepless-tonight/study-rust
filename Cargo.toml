@@ -19,11 +19,17 @@ winit = "0.25.0"
 ##version = "0.8.1"
 #features = ["v3_20"]
 #[dependencies.gio]
-###version = ""
+##version = ""
 #features = ["v2_44"]
 #[dependencies.glib]
 ###version = ""
 #features = ["v2_44"]
+
+
+[dependencies.gtk]
+version = "0.2"
+package = "gtk4"
+#features = ["v4_2"]
 
 #[dependencies]
 #chrono = "0.4"
