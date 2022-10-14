@@ -3,6 +3,7 @@ name = "rust"
 version = "0.1.0"
 authors = ["shiliang <921789348@qq.com>"]
 edition = "2018"
+resolver = "2"
 [dependencies]
 rand = "0.6.5"
 ferris-says = "0.2"
@@ -65,3 +66,4 @@ package = "gtk4"
 #[dependencies.gio]
 #version = ""
 #features = ["v2_44"]
+
