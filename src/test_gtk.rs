@@ -5,7 +5,6 @@ use gtk::prelude::*;
 use gtk::{Application, ApplicationWindow, Button};
 
 pub(crate) fn test_gtk() {
-
     let application = Application::builder()
         .application_id("com.example.FirstGtkApp")
         .build();

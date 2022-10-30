@@ -6,9 +6,7 @@ mod test_gtk;
 // mod test4_3;
 // use test2_2 as test;
 
-
 fn main() {
-
     // test1_1::test1();
     // test2_1::test1();
     // test::test2();
