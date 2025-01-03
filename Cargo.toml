@@ -7,15 +7,15 @@ resolver = "2"
 [dependencies]
 rand = "0.6.5"
 ferris-says = "0.2"
-winit = "0.25.0"
+winit = "0.30.7"
 
 
 [dependencies.gtk]
-version = "0.2"
+version = "0.9.5"
 package = "gtk4"
 
 [dependencies.windows]
-version = "0.39.0"
+version = "0.58.0"
 features = [
     "Data_Xml_Dom",
     "Win32_Foundation",
